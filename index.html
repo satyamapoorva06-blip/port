@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Kumar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div id="preloader">
+        <div class="pre-circle"></div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">&lt;Satyam /&gt;</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home"     class="nav-link">Home</a></li>
+                <li><a href="#about"    class="nav-link">About</a></li>
+                <li><a href="#skills"   class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact"  class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="theme-btn" id="themeBtn"><i class="fas fa-moon"></i></button>
+                <div class="hamburger" id="hamburger">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <span></span><span></span><span></span>
+            <span></span><span></span><span></span>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">👋 Hello, I'm</p>
+            <h1 class="hero-name">Satyam Kumar</h1>
+            <div class="hero-type">
+                I'm a <span id="typed"></span><span class="cursor-blink">|</span>
+            </div>
+            <p class="hero-desc">
+                A passionate developer from Mathura, Uttar Pradesh, who loves building
+                beautiful, fast and user-friendly web applications.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact"  class="btn btn-outline">Hire Me</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/satyamapoorva06-blip" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/satyam-kumar-512b03350/?skipRedirect=true" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:Satyamapoorva06@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-img-ring">
+                <div class="hero-img-box">
+                    <img src="d:\iit\IMG_20260313_150746.jpg" alt="Satyam Kumar">
+                </div>
+            </div>
+            <div class="floating-tag t1"><i class="fab fa-react"></i> React</div>
+            <div class="floating-tag t2"><i class="fab fa-node-js"></i> Node</div>
+            <div class="floating-tag t3"><i class="fab fa-python"></i> Python</div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <div class="mouse"><div class="wheel"></div></div>
+            <span>Scroll</span>
+        </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-tag">Who I Am</span>
+                <h2>About <span class="color">Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-left">
+                    <div class="about-img-box">
+                        <div class="about-img-inner">
+                            <img src="satyam.jpg" alt="Satyam Kumar">
+                        </div>
+                        <div class="exp-badge">
+                            <h3>1+</h3>
+                            <p>Year<br>Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <div class="about-info-cards">
+                        <div class="info-card">
+                            <i class="fas fa-code"></i>
+                            <h4>10+</h4>
+                            <p>Projects</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>5+</h4>
+                            <p>Technologies</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-award"></i>
+                            <h4>100%</h4>
+                            <p>Dedication</p>
+                        </div>
+                    </div>
+                    <p class="about-text">
+                        Hi! I'm Satyam Kumar, a passionate Web Developer from Mathura, Uttar Pradesh.
+                        I enjoy creating modern websites and learning new technologies every day.
+                        I love clean code, great UI, and solving real problems through programming.
+                    </p>
+                    <p class="about-text">
+                        When I'm not coding, I enjoy learning new frameworks,
+                        exploring open-source projects, and improving my skills.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail"><span>Name</span><p>Satyam Kumar</p></div>
+                        <div class="detail"><span>Email</span><p>Satyamapoorva06@gmail.com</p></div>
+                        <div class="detail"><span>Phone</span><p>+91 9608672661</p></div>
+                        <div class="detail"><span>Location</span><p>Mathura, UP</p></div>
+                        <div class="detail"><span>Status</span><p class="green">Available</p></div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-tag">What I Know</span>
+                <h2>My <span class="color">Skills</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-wrapper">
+
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-top">
+                                <span><i class="fab fa-html5"></i> HTML5</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-top">
+                                <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-top">
+                                <span><i class="fab fa-js"></i> JavaScript</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-top">
+                                <span><i class="fab fa-react"></i> React.js</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-top">
+                                <span><i class="fab fa-node-js"></i> Node.js</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-top">
+                                <span><i class="fab fa-python"></i> Python</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-top">
+                                <span><i class="fas fa-database"></i> MongoDB</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-top">
+                                <span><i class="fas fa-database"></i> MySQL</span>
+                                <span>72%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-w="72"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="tools-grid">
+                        <div class="tool-box"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                        <div class="tool-box"><i class="fab fa-github"></i><span>GitHub</span></div>
+                        <div class="tool-box"><i class="fab fa-figma"></i><span>Figma</span></div>
+                        <div class="tool-box"><i class="fas fa-code"></i><span>VS Code</span></div>
+                        <div class="tool-box"><i class="fab fa-npm"></i><span>NPM</span></div>
+                        <div class="tool-box"><i class="fas fa-terminal"></i><span>Terminal</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-tag">What I Built</span>
+                <h2>My <span class="color">Projects</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-btns">
+                <button class="filter active" data-filter="all">All</button>
+                <button class="filter" data-filter="web">Web App</button>
+                <button class="filter" data-filter="mobile">Mobile</button>
+                <button class="filter" data-filter="design">Design</button>
+            </div>
+
+            <!-- Project Cards -->
+            <div class="projects-grid">
+
+                <div class="proj-card" data-cat="web">
+                    <div class="proj-img" style="background:linear-gradient(135deg,#667eea,#764ba2)">
+                        <i class="fas fa-briefcase"></i>
+                        <div class="proj-overlay">
+                            <a href="https://github.com/satyamapoorva06-blip" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="proj-info">
+                        <h3>Portfolio Website</h3>
+                        <p>My personal portfolio website built with modern web technologies and animations.</p>
+                        <div class="proj-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card" data-cat="web">
+                    <div class="proj-img" style="background:linear-gradient(135deg,#f093fb,#f5576c)">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="proj-overlay">
+                            <a href="https://github.com/satyamapoorva06-blip" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="proj-info">
+                        <h3>E-Commerce Website</h3>
+                        <p>An online store with product listings, cart and checkout functionality.</p>
+                        <div class="proj-tags">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card" data-cat="web">
+                    <div class="proj-img" style="background:linear-gradient(135deg,#4facfe,#00f2fe)">
+                        <i class="fas fa-tasks"></i>
+                        <div class="proj-overlay">
+                            <a href="https://github.com/satyamapoorva06-blip" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="proj-info">
+                        <h3>Task Manager App</h3>
+                        <p>A simple and effective task management application to organize your daily work.</p>
+                        <div class="proj-tags">
+                            <span>JavaScript</span><span>LocalStorage</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card" data-cat="design">
+                    <div class="proj-img" style="background:linear-gradient(135deg,#43e97b,#38f9d7)">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="proj-overlay">
+                            <a href="https://github.com/satyamapoorva06-blip" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="proj-info">
+                        <h3>Landing Page Design</h3>
+                        <p>Modern responsive landing page design with smooth animations and clean UI.</p>
+                        <div class="proj-tags">
+                            <span>HTML</span><span>CSS</span><span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card" data-cat="web">
+                    <div class="proj-img" style="background:linear-gradient(135deg,#fa709a,#fee140)">
+                        <i class="fas fa-cloud-sun"></i>
+                        <div class="proj-overlay">
+                            <a href="https://github.com/satyamapoorva06-blip" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="proj-info">
+                        <h3>Weather App</h3>
+                        <p>Real-time weather application using OpenWeather API with location detection.</p>
+                        <div class="proj-tags">
+                            <span>JavaScript</span><span>API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proj-card" data-cat="mobile">
+                    <div class="proj-img" style="background:linear-gradient(135deg,#a18cd1,#fbc2eb)">
+                        <i class="fas fa-calculator"></i>
+                        <div class="proj-overlay">
+                            <a href="https://github.com/satyamapoorva06-blip" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="proj-info">
+                        <h3>Calculator App</h3>
+                        <p>Beautiful and functional calculator app with modern UI and smooth animations.</p>
+                        <div class="proj-tags">
+                            <span>JavaScript</span><span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-tag">My Journey</span>
+                <h2>Experience & <span class="color">Education</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="exp-tabs">
+                <button class="exp-tab active" data-tab="edu">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </button>
+                <button class="exp-tab" data-tab="work">
+                    <i class="fas fa-briefcase"></i> Experience
+                </button>
+            </div>
+
+            <!-- Education Timeline -->
+            <div class="timeline" id="edu">
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <h3>B.Tech / Bachelor's Degree</h3>
+                        <span class="t-company">GLA University, Mathura</span>
+                        <span class="t-date"><i class="far fa-calendar"></i> Currently Pursuing</span>
+                        <p>Studying Computer Science and Engineering with focus on web development and modern technologies.</p>
+                        <div class="t-tags"><span>Computer Science</span><span>Web Dev</span></div>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <h3>Higher Secondary (12th)</h3>
+                        <span class="t-company">Your School Name</span>
+                        <span class="t-date"><i class="far fa-calendar"></i> Completed</span>
+                        <p>Completed higher secondary education with Science stream.</p>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <h3>Secondary (10th)</h3>
+                        <span class="t-company">Your School Name</span>
+                        <span class="t-date"><i class="far fa-calendar"></i> Completed</span>
+                        <p>Completed secondary school education with good grades.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Timeline -->
+            <div class="timeline hidden" id="work">
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <h3>Web Developer (Self Learning)</h3>
+                        <span class="t-company">Personal Projects</span>
+                        <span class="t-date"><i class="far fa-calendar"></i> 2023 - Present</span>
+                        <p>Building personal projects, learning new technologies, and contributing to open source.</p>
+                        <div class="t-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-card">
+                        <h3>Freelance Developer</h3>
+                        <span class="t-company">Open for Opportunities</span>
+                        <span class="t-date"><i class="far fa-calendar"></i> Available Now</span>
+                        <p>Looking for freelance opportunities to build websites and web applications for clients.</p>
+                        <div class="t-tags"><span>Frontend</span><span>Full Stack</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-head">
+                <span class="section-tag">Get In Touch</span>
+                <h2>Contact <span class="color">Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-grid">
+
+                <div class="contact-left">
+                    <h3>Let's Work Together!</h3>
+                    <p>I'm currently available for freelance work and learning opportunities. Feel free to reach out!</p>
+                    <div class="contact-info">
+                        <div class="c-item">
+                            <div class="c-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:Satyamapoorva06@gmail.com">Satyamapoorva06@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="c-item">
+                            <div class="c-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+919608672661">+91 9608672661</a>
+                            </div>
+                        </div>
+                        <div class="c-item">
+                            <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Mathura, Uttar Pradesh, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c-socials">
+                        <a href="https://github.com/satyamapoorva06-blip" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/satyam-kumar-512b03350/?skipRedirect=true" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:Satyamapoorva06@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Your Name</label>
+                                <input type="text" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Your Email</label>
+                                <input type="email" placeholder="john@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Project Discussion" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="f-brand">
+                    <a href="#" class="logo">&lt;Satyam /&gt;</a>
+                    <p>Building digital products that make a difference. Passionate developer from Mathura.</p>
+                </div>
+                <div class="f-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="f-social">
+                    <h4>Follow Me</h4>
+                    <div class="f-social-links">
+                        <a href="https://github.com/satyamapoorva06-blip" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/satyam-kumar-512b03350/?skipRedirect=true" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:Satyamapoorva06@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Satyam Kumar. All Rights Reserved. Made with <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backTop"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
